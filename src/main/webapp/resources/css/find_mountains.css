@@ -1,0 +1,53 @@
+#wrap {
+  width: 1280px;
+
+  margin: 0 auto;
+}
+
+.a {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 5em;
+}
+
+.b {
+  margin-top: 1em;
+
+  padding: 0;
+}
+
+.b input {
+  width: 20em;
+  height: 40px;
+}
+
+section.title_photo{
+  width: 30%;
+}
+.d {
+  display: flex;
+  height:30em;
+}
+
+
+.mountain_photo{
+  border:3px solid black;  
+  height:30em;
+}
+
+.mountain_photo img{
+  width:100%;
+  height: 100%;
+  
+}
+
+section.subtitle{
+  
+  width:70%;
+  border:3px solid black;  
+}
+
+.mountains_table tr{
+  text-align: center;
+}

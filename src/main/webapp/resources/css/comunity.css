@@ -1,0 +1,135 @@
+
+div.comunity_div{
+    width:1280px;
+    margin:0 auto;
+    
+    
+   
+  }
+div.free_list{
+    
+    margin:5% 1% 0 1%;
+    padding:1%;
+
+    background-color: white;
+}
+
+
+.free_list_title{
+    font-size:3em;
+    text-align: center;
+    font-family: "Black Han Sans", sans-serif;
+     color: #4CAF50;
+     padding:2%;
+
+}
+
+
+
+
+
+
+.free_list table{
+
+    width:100%;
+    border-collapse: collapse;
+
+}
+
+.free_list table td{
+   padding:3% 1%;
+   border-bottom: 1px solid rgb(189, 188, 188);
+   background-color: cornsilk;
+   
+}
+.free_list table td div{
+   
+    border:2px solid black;
+    display: inline;
+    
+    overflow:auto;
+    
+
+   
+ }
+ .free_list table td img{
+
+   max-width: 100%;
+ }
+
+
+
+
+
+.free_list table tr :first-child{
+    text-align: center;
+    width:1%;
+}
+
+.free_list table tr :nth-child(2){
+    text-align: left;
+    width:max-content;
+  
+
+}
+.free_list table tr :nth-child(3){
+    text-align: center;
+    width:10%;
+}
+.free_list table tr :nth-child(4){
+    text-align: center;
+}
+.free_list table tr :nth-child(5){
+    text-align: center;
+    width:6%;
+}
+
+
+
+
+
+.table_name th{   
+  background: #4CAF50;
+color: white;
+    height:50px;
+    padding:0% 1%;
+    font-size: 16px;
+}
+
+.free_list_search{
+    padding:2%;
+    text-align: center;
+    display: flexbox;
+    
+}
+
+.free_list_search select{
+    padding:0.5%;
+    border-radius: 3%;
+}
+.free_list_search input{
+    margin-left: 1%;
+    padding:0.5%;
+    border-radius: 3%;
+}
+.free_list_search button{
+    border:0;
+    color: white;
+    width: 6%;
+    padding:0.5%;
+    border-radius: 3%;
+    background-color: #4CAF50;;
+}
+
+.free_list_search_number{
+    text-align: center;
+}
+.free_list_search_number button{
+    border:0;
+    color: white;
+    padding:0.5%;
+    width: 3%;
+    border-radius: 3%;
+    background-color: #4CAF50;;
+}
+

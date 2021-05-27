@@ -2,16 +2,25 @@
     pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ taglib prefix="sql" uri="http://java.sun.com/jsp/jstl/sql"%>
+
+<script
+  src="https://code.jquery.com/jquery-3.4.0.js"
+  integrity="sha256-DYZMCC8HTC+QDr5QNaIcfR7VSPtcISykd+6eSmBW5qo="
+  crossorigin="anonymous"></script>
+  
+<!-- <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css"> -->
+<!-- <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css"> -->
+
+<!-- <script src="https://unpkg.com/swiper/js/swiper.js"></script> -->
+<!-- <script src="https://unpkg.com/swiper/js/swiper.min.js"></script> -->
+
     <%
 	String sessionId = (String) session.getAttribute("sessionId");
-   
-        
-%>
+	%>
 	<script src="https://kit.fontawesome.com/0f28df0725.js" crossorigin="anonymous"></script>
 	<link rel="stylesheet" type="text/css" href="./resources/css/header.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
-	<script src="jquery-3.3.1.min.js"></script>
 
 
 <link rel="preconnect" href="https://fonts.gstatic.com">
